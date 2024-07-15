@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/rjvill1">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="https://i.ytimg.com/vi/vfN7fWoeRN0/maxresdefault.jpg" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/logo.webp" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">RJ</h3>
+  <h3 align="center">WD-Finals</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This project requires you to build a personal website that demonstrates your design skills and web development knowledge. The website should include at least 5 pages, showcasing distinct layouts for various features. It will serve as a portfolio showcasing your skills and past projects.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=rjvill1/WD-Seatwork-2-TX03)
+![](https://visit-counter.vercel.app/counter.png?page=rjvill1/WD-Finals)
 
 ---
 
@@ -58,6 +58,7 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
+Finals Website Project containing 5 pages using only HTML and CSS.
 
 Guiding Question:
 - What is the project
@@ -68,7 +69,7 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- MultiPage Website
 - Parallax transition
 - Transactional
 
@@ -112,7 +113,3 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-
-| How To Make Website Using HTML And CSS | Website Design With Html And CSS | Add a background image and darken it, and make the buttons have a transition effect | https://www.youtube.com/watch?v=PgAZ8KzfhO8&t=62s |
-
-|-|-|-|
