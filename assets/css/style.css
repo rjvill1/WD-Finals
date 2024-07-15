@@ -5,21 +5,6 @@
     text-decoration: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5vw;
-    align-items: center;
-    position: fixed;
-    width: 90vw;
-    top: 0;
-    left: 0;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;;
-}
-
 .navbar {
     width: 85%;
     margin: auto;
@@ -61,11 +46,6 @@ span {
     color: green;
 }
 
-header button:hover {
-    transition: 0.5s;
-    background-color: #009620;
-    width: 100%;
-}
 
 .logo {
     width: 10%;
