@@ -1,9 +1,9 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Basic';
+    text-decoration: 0;
 }
-/* Dep */
-
 
 header {
     display: flex;
@@ -20,52 +20,62 @@ header {
     text-transform: uppercase;;
 }
 
-header button {
-    padding: .5rem 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    height: 4vh;
-    text-align: center;
-    margin: 20px 10px;
-    background: transparent;
-    border-radius: 25px;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;;
-    overflow: hidden;
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
     position: relative;
 }
 
-span {
-    background: #009620;
-    height: 100%;
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
     width: 0;
-    border-radius: 25px;
+    background: green;
     position: absolute;
     left: 0;
-    bottom: 0;
-    z-index: -1;
+    bottom: -5px;
     transition: 0.5s;
 }
 
-header button:hover span {
+.navbar ul li:hover::after {
     width: 100%;
 }
 
+span {
+    color: green;
+}
+
 header button:hover {
-    border: none;
+    transition: 0.5s;
+    background-color: #009620;
+    width: 100%;
 }
 
-header h1 {
-    font-size: 15px;
+.logo {
+    width: 10%;
+    border-radius: 100%;
 }
-
 
 .content {
     width: 100%;
     position: absolute;
-    top: 65%;
+    top: 70%;
     transform: translateY(-90%);
     text-align: center;
     color: #fff;
@@ -77,12 +87,21 @@ header h1 {
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
     background-size: cover;
     background-position: center;
-    
+}
+
+.rj {
+    position: relative;
+    width: 15%;
+    border-radius: 100%;
+}
+
+.rj:hover {
+    transition: .5s;
+    width: 20%;
 }
 
 .content h1 {
     font-size: 70px;
-    margin-top: 80px;
 }
 
 .content p {
@@ -103,6 +122,23 @@ header h1 {
     right: 0;
     bottom: 0;
     z-index: -1;
+}
+
+.description {
+    position: absolute;
+    top: 98%;
+    left: 23%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+}
+
+.desc {
+    color: white;
 }
 
 @media (min-aspect-ratio: 16/9) {
